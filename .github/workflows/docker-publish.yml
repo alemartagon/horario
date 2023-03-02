@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: alemartagon/autoupdate:latest , alemartagon/autoupdate:${{github.event.pull_request.title}}
+          tags: alemartagon/horario:latest , alemartagon/horario:${{github.event.pull_request.title}}
